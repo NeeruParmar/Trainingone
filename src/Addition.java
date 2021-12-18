@@ -8,7 +8,9 @@ public class Addition {
 				int numa = 8;
 				int numb = 8;
 				int Sum = numa + numb;
+				int Subtract= numa - numb;
 				System.out.println(Sum);
+				System.out.println(Subtract);
 		
 	}
 
