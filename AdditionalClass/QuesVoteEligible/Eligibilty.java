@@ -1,15 +1,14 @@
 package QuesVoteEligible;
 
 public class Eligibilty {
-	
-	
-	boolean IsEligibleToVote(String Citizen, int age) {
-		
-		if (Citizen=="Canadian" && age>=18) {
+
+	boolean isEligibleToVote(String citizen, int age) {
+
+		if (citizen == "Canadian" && age >= 18) {
 			return true;
 		}
-		
-		else 
+
+		else
 			return false;
 	}
 
