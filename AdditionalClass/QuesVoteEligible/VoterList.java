@@ -8,20 +8,18 @@ public class VoterList {
 		// TODO Auto-generated method stub
 //Write a method to check the eligiblitity to vote considering the criteria:
 //Age must be greater than 18 ,Must be citizen		
-		
-		
+
 		Eligibilty obj = new Eligibilty();
-		Scanner sc= new Scanner(System.in);
-		
+		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter what is the citizenship of the voter");
-		String citizenship=sc.next();
-		
+		String citizenship = sc.next();
+
 		System.out.println("Enter what is the age  of the voter");
-		int eligibleAge =sc.nextInt();		
-		boolean IsCitizenEligible =obj.IsEligibleToVote( citizenship,  eligibleAge);
-		
-		System.out.println("Can the person vote "+IsCitizenEligible);
+		int eligibleAge = sc.nextInt();
+		boolean isCitizenEligible = obj.isEligibleToVote(citizenship, eligibleAge);
+
+		System.out.println("Can the person vote " + isCitizenEligible);
 
 	}
 
